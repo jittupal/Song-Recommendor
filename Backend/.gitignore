@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment Variables (CRITICAL: Keeps keys private)
+.env
+
+# Temporary Uploads (Don't upload test images to GitHub)
+uploads/
+
+# OS Files
+.DS_Store
+Thumbs.db
