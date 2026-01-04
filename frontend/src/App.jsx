@@ -32,7 +32,7 @@ function App() {
   // CONFIG
   const API_BASE = window.location.hostname === "localhost" 
     ? "http://localhost:5000" 
-    : "https://YOUR-BACKEND-URL.com"; 
+    : "https://musetuneai-backend.onrender.com"; 
 
   // --- Generate/Retrieve User ID on Load ---
   useEffect(() => {
